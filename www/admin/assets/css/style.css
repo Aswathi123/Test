@@ -1,0 +1,39 @@
+.servicesDiv {
+	padding-left: 2%;
+}
+.bold {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.top{
+	padding-top: 10px;
+}
+.bottom{
+	padding-bottom: 10px;
+}
+#emailSubject{
+	width: 72.75%;
+}
+.emailSubjectTextDiv{
+	padding-left: 14px;
+    padding-bottom: 3%;
+}
+.emailSubjectDiv{
+	display: grid;
+}
+.hiddenDiv{
+	display: none;
+}
+.Success {
+    font-size: 15px;
+    color: green;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+.NoservicesDiv{
+	padding-left: 4%;
+    padding-top: 10%;
+    color:#FF0000;
+}
+    
+       

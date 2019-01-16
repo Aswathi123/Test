@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<schedule>
+    <task autoDelete="false" hidden="false" interval="120"
+        name="bugLogProcessQueue_default" port="-1" proxyHost=""
+        proxyPassword="" proxyPort="0" proxyUser="" publish="false"
+        readonly="false" resolveUrl="false" startDate="{d '1990-01-01'}"
+        startTime="{t '00:00:00'}" timeout="50000" url="http://salonworks.com/bugLog/util/processQueue.cfm?instance=default&amp;key=123456knowthybugs654321"/>
+</schedule>

@@ -1,0 +1,61 @@
+// Clearfix
+//
+// Clears floats via mixin (avoid using as a class).
+
+@mixin clearfix {
+  &:before {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+
+
+
+/* placeholder mixin */
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    @content
+  }
+
+  :-moz-placeholder {
+    @content
+  }
+
+  ::-moz-placeholder {
+    @content
+  }
+
+  :-ms-input-placeholder {
+    @content
+  }
+
+}
+
+
+
+@mixin transition ($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}
+
+
+
+/* how to use this variabile*/
+
+  /* .forms{
+     @include placeholder{
+      opacity: 1;color: #a5aeb7;
+    } */
+
+
+
+/* @include transition (.2s ease-out all); */

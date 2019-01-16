@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		background:url(index_files/bg.jpg) no-repeat fixed center top;
+}
+
+
+.details{
+	margin-top:15px;
+	padding-bottom:20px;
+	text-align:left;
+	min-height:960px;
+
+}
+
+ .details .formtabs{
+	 text-align:left;
+ }
+	 
+ .details .formtabs .tablink{
+	 font-size:16px;
+	 display:block;
+	 padding-left:15px;
+	 padding-top:10px;
+	 width:210px;
+	 height:30px;
+	 background:url(index_files/signup_tab.jpg) repeat-x;
+	 border-radius:10px 10px 0 0;
+	 color:#333;
+	 text-decoration:none;
+	 margin-right:5px;
+ }
+ 
+
+ .details .form{
+	 width:920px;
+	/* height:690px; */
+	 background-color:#dfdfdf;
+	 box-shadow:1px 1px 5px 0 #333;
+	 padding-top:20px;
+	 padding-left:25px;
+	 background-image:url(index_files/mouse.png);
+	 background-position:right bottom;
+	 background-repeat:no-repeat;
+	 /*overflow-y:scroll;*/
+	 color:#333;
+	 font-size:15px;
+ }
+ 
+.details .form table{
+	padding-bottom:5px;
+}
+ .details .form table td{
+	 padding-bottom:10px;
+	 vertical-align:top;
+ }
+ 
+ .details .form table td table td{
+	 padding-bottom:0px !important;
+ }
+ 
+ .details .form .initials{
+	 width:250px;
+	 height:24px;
+	 background-color:#FFF;
+	 border:1px solid #CCC;
+	 padding-left:10px;
+	 color:#999;
+	 font-size:14px;
+ }
+ 
+ .details .form .lists{
+	 width:160px;
+	 height:28px;
+	 background-color:#FFF;
+	 border:1px solid #CCC;
+	 padding-left:8px;
+	 color:#999;
+	 font-size:14px;
+ }
+ 
+ .details .form .list2{
+	 width:263px;
+	 height:28px;
+	 background-color:#FFF;
+	 border:1px solid #CCC;
+	 padding-left:8px;
+	 color:#999;
+	 font-size:14px;
+ }
+ 
+ .details .form .summary{
+	 width:250px;
+	 height:40px;
+	 background-color:#FFF;
+	 border:1px solid #CCC;
+	 padding-left:8px;
+	 color:#999;
+	 font-size:14px;
+	 padding-top:4px;
+ }
+/*jscoin-tabs*/
+.jscoin-tabs
+{
+   position:absolute;
+}
+.jscoin-tabs ul.menu
+{
+    list-style-type:none;
+	padding-left:0px;
+	margin:0;
+	display:inline-block; /* Change this to block or inline for non-center alignment */
+	   
+}
+.jscoin-tabs ul.menu > li
+{
+    display:block;
+    float:left;
+}
+.jscoin-tabs ul.menu li > div
+{
+    display:none;
+    float:left;
+	left:0;
+    position:absolute;
+}
+.jscoin-tabs ul.menu li > .tablink:hover
+{
+		 background-color:#999999;
+		 background-image:none !important;
+		 color:#ffffff;
+
+}
+.jscoin-tabs ul.menu li:target > .tablink
+{
+    cursor:pointer;
+	background-color:#999999;
+	background-image:none !important;
+	color:#ffffff;
+}
+.jscoin-tabs ul.menu li:target > div
+{
+    display:block;
+}

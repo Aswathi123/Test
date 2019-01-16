@@ -1,0 +1,8 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"ERROR","Thread-48998","12/10/2018","07:38:00","schedule task:bugLogProcessQueue_default","Engine is not running"
+"ERROR","Thread-5706","12/12/2018","11:32:00","schedule task:bugLogProcessQueue_default","Engine is not running"
+"ERROR","Thread-72649","12/18/2018","09:08:00","schedule task:bugLogProcessQueue_default","Task is not valid"
+"ERROR","Thread-40489","12/18/2018","09:08:00","schedule task:bugLogProcessQueue_default","Task is not valid"
+"ERROR","Thread-525","01/09/2019","04:28:00","schedule task:bugLogProcessQueue_default","Task is not valid"
+"ERROR","Thread-44","01/10/2019","07:22:00","schedule task:bugLogProcessQueue_default","Engine is not running"
+"ERROR","Thread-93","01/15/2019","05:56:00","schedule task:bugLogProcessQueue_default","Task is not valid"

@@ -1,0 +1,16 @@
+.banner .bnr-caption-otr .btn a{
+	color:#fff;
+}
+
+.banner .bnr-caption-otr .btn:hover a{
+ color: #000;
+}
+.btn .btn-block .btn-primary{
+	background-color:#8a171a;
+}
+.schedule ul li{
+	list-style: none;
+    width: 219px;
+    margin: 0 10px;
+    
+}

@@ -1,0 +1,465 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	/**/background:url(images/bg.jpg);
+	background-color:#cccccc;
+	font-size:18px;
+	font-family:"calibri" , Arial;
+	color:#9b9b9b; /*default gray background - VARIABLE*/
+}
+/* outer wrapper */
+#wrap{ 
+	width:1010px;
+	background-color:#ffffff;
+	box-shadow:0px 1px 5px 1px #666666;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	margin-top:40px;
+	overflow:auto;
+}
+
+#wrap .header{
+	width:990px;
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:54px;
+	font-family:"Times New Roman", Times, serif;
+	color:#f6958a; /*dominant color - VARIABLE*/
+	height:60px;  
+}
+ 
+
+#wrap .menu{
+	width:990px;
+	height:50px;
+	background-color:#94866b; /* secondary color - VARIABLE */
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+#wrap .menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-right:10px;
+	margin-left:12px
+}
+
+#wrap .menu li{
+		float:left;
+		margin-left:6px;
+}
+		
+#wrap .menu li a{
+	color:#f1f1f1;
+	font-size:19px;
+	text-decoration:none;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:13px;
+	padding-bottom:14px;
+	display:block;
+}
+
+#wrap .menu li a:hover{
+	background-color:#f6958a; /*dominant color - VARIABLE*/
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color:#ffffff;
+}
+
+#wrap .menu li .current{
+	background-color:#f6958a; /*dominant color - VARIABLE*/
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color:#ffffff;
+}
+
+#wrap .topContent{
+	margin-top:10px;
+	width:990px;
+	height:505px;
+}
+
+#wrap .topContent .leftbar{
+	float:left;
+	width:640px;
+	height:380px;
+}
+
+#wrap .topContent .rightbar{
+	float:right;
+	width:340px;
+}
+
+#wrap .topContent .rightbar .head{
+	font-size:48px;
+	font-family:"Times New Roman", Times, serif;
+	color:#f6958a; /*dominant color - VARIABLE*/
+	text-align:left;
+}
+
+#wrap .topContent .rightbar .note{
+	margin-top:15px;
+	margin-bottom:25px;
+	text-align:justify;
+}
+
+#wrap .topContent .rightbar .tab{
+	text-align:left;
+	margin-bottom:20px;
+}
+
+#wrap .topContent .rightbar .tab .button{
+	background-color:#94866b; /* secondary color - VARIABLE */
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	color:#efeeee;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+	text-decoration:none;
+	padding-left:25px;
+	padding-right:25px;
+	padding-bottom:11px;
+}
+
+#wrap .topContent .rightbar .button:hover{
+	background-color:#f6958a; /*dominant color - VARIABLE*/
+}
+/*
+#wrap .topContent .rightbar .certifAdv{
+	background-color:#d4caae;
+	color:#272626;
+	font-weight:bold;
+	padding-top:4px;
+	padding-bottom:5px;
+	padding-right:10px;
+}
+
+#wrap .topContent .rightbar .certifAdv a{
+	color:#b52025;
+	font-weight:100;
+	text-align:16px;
+}
+
+#wrap .topContent .rightbar .certifAdv a:hover{
+	font-weight:bold;
+}
+*/
+#wrap .midContent{
+	width:990px;
+	overflow:auto;
+	padding-bottom:25px;
+	border-bottom:1px solid #cecece;
+}
+
+#wrap .midContent .section1{
+	float:left;
+	width:325px;
+}
+
+#wrap .midContent .section1 .divide{
+	border-bottom:1px dotted #dbdad8;
+	padding-bottom:10px;
+	padding-top:10px;
+	text-align:left;
+}
+#wrap .midContent .section1 .divide .alternate{
+	background-color:#94866b; /* secondary color - VARIABLE */
+	color:#fff;
+}
+
+#wrap .midContent .section1 .divide table{ 
+	color:#94866b; /* secondary color - VARIABLE */
+	width:325px;
+}
+
+
+#wrap .midContent .section1 .link1{
+	padding-left:40px;
+	background:url(images/time_icon.jpg) no-repeat left;
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	padding-top:4px;
+}
+
+#wrap .midContent .section1 .link1:hover{
+	color:#94866b; /* secondary color - VARIABLE */
+}
+
+#wrap .midContent .section1 .link2{
+	padding-left:40px;
+	background:url(images/payment_icon.jpg) no-repeat left;
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	padding-top:4px;
+}
+
+#wrap .midContent .section1 .link2:hover{
+	color:#94866b; /* secondary color - VARIABLE */
+}
+
+#wrap .midContent .section1 .link3{
+	padding-left:40px;
+	background:url(images/cancel_icon.jpg) no-repeat left;
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	padding-top:4px;
+}
+
+#wrap .midContent .section1 .link3:hover{
+	color:#94866b; /* secondary color - VARIABLE */
+}
+
+#wrap .midContent .section1 .link4{
+	padding-left:40px;
+	background:url(images/notes_icon.jpg) no-repeat left;
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	padding-top:4px;
+}
+
+#wrap .midContent .section1 .link4:hover{
+	color:#94866b; /* secondary color - VARIABLE */
+}
+
+#wrap .midContent .section1 .link5{
+	padding-left:40px;
+	background:url(images/parking_icon.jpg) no-repeat left;
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	padding-top:4px;
+}
+
+#wrap .midContent .section1 .link5:hover{
+	color:#94866b; /* secondary color - VARIABLE */
+}
+
+#wrap .midContent .section1 .social{
+	margin-top:25px;
+	color:#3c3c3c;
+	font-size:15px;
+	text-align:left;
+}
+
+#wrap .midContent .section2{
+	float:left;
+	width:250px;
+	margin-left:65px;
+}
+
+#wrap .midContent .section2 .heading{
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:15px;
+	border-bottom:1px dotted #dbdad8;
+	padding-top:15px;
+	margin-bottom:15px;
+}
+
+#wrap .midContent .section2 .services{
+	margin-bottom:10px;
+}
+
+#wrap .midContent .section2 .format{
+	border:2px solid #f6958a; /*dominant color - VARIABLE*/
+}
+
+#wrap .midContent .section2 table td{
+	color:#e88277;
+	font-size:19px;
+	text-align:left;
+	font-weight:bold;
+}
+
+#wrap .midContent .section2 .more{
+	text-align:left;
+	margin-top:18px;
+}
+
+#wrap .midContent .section2 .more .button{
+	background-color:#94866b; /* secondary color - VARIABLE */
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	color:#efeeee;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:7px;
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:8px;
+}
+
+#wrap .midContent .section2 .button:hover{
+	background-color:#f6958a; /*dominant color - VARIABLE*/
+}
+
+#wrap .midContent .section3{
+	float:right;
+	width:550px;
+}
+
+#wrap .midContent .section3 .heading{
+	color:#3c3c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:15px;
+	border-bottom:1px dotted #dbdad8;
+	padding-top:15px;
+	margin-bottom:15px;
+}
+
+
+#wrap .footer{
+	margin-top:10px;
+	color:#868586;
+	font-size:16px;
+	text-align:left;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#wrap .footer div{
+	padding-bottom:1px;
+}
+
+
+.initials{
+	color:#ffffff;
+	text-align:center;
+	font-size:15px;
+	margin:15px;
+}
+
+.initials a{
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.initials a:hover{
+	text-decoration:none;
+}
+
+.rightdetails{
+	margin-top:15px;
+	margin-left:3px;
+	margin-right:3px;
+	/*float:right;*/
+	width:350px;
+	background-color:#fefcf8;
+	box-shadow:0px 1px 6px 1px #333;
+	padding:15px;
+
+}
+
+.rightdetails .point{
+	padding-bottom:15px;
+	padding-top:10px;
+	border-bottom:1px dotted #dbdad8;
+	text-align:left;
+	color:#94866b; /* secondary color - VARIABLE */
+}
+
+.rightdetails .point .head{
+	background:url(images/time_icon.jpg) no-repeat left;
+	padding-left:45px;
+	color:#3c3c3c;
+	font-size:19px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.rightdetails .point .desc{
+	margin-left:45px;
+	font-size:16px;
+}
+
+.rightdetails .point .desc .alternate1{
+	background-color:#94866b; /* secondary color - VARIABLE */
+	color:#ffffff;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.rightdetails .point .desc .alternate2{
+	background-color:#ffffff;
+	color:#94866b; /* secondary color - VARIABLE */
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.rightdetails .point .head2{
+	background:url(images/payment_icon.jpg) no-repeat left;
+	padding-left:45px;
+	color:#3c3c3c;
+	font-size:19px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.rightdetails .point .head3{
+	background:url(images/cancel_icon.jpg) no-repeat left;
+	padding-left:45px;
+	color:#3c3c3c;
+	font-size:19px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.rightdetails .point .head4{
+	background:url(images/parking_icon.jpg) no-repeat left;
+	padding-left:45px;
+	color:#3c3c3c;
+	font-size:19px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.rightdetails .media{
+	margin-top:15px;
+	color:#3c3c3c;
+	font-size:15px;
+	text-align:left;
+}

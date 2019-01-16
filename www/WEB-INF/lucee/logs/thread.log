@@ -1,0 +1,19 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"ERROR","cfthread-0","07/08/2016","15:53:48","","cfthread-0;Syntax Error, invalid Expression [Connection Failure];Syntax Error, invalid Expression [Connection Failure]
+	at railo.runtime.interpreter.CFMLExpressionInterpreter.interpret(CFMLExpressionInterpreter.java:201):201
+	at railo.runtime.functions.dynamicEvaluation.Evaluate._call(Evaluate.java:91):91
+	at railo.runtime.functions.dynamicEvaluation.Evaluate.call(Evaluate.java:84):84
+	at railo.runtime.functions.dynamicEvaluation.Evaluate.call(Evaluate.java:25):25
+	at admin.extension_functions_cfm460$cf.threadCall(/railo-context-compiled/admin/extension.functions.cfm:127):127
+	at railo.runtime.thread.ChildThreadImpl.execute(ChildThreadImpl.java:181):181
+	at railo.runtime.thread.ChildThreadImpl.run(ChildThreadImpl.java:130):130
+"
+"ERROR","cfthread-1","07/08/2016","15:53:48","","cfthread-1;Syntax Error, invalid Expression [Connection Failure];Syntax Error, invalid Expression [Connection Failure]
+	at railo.runtime.interpreter.CFMLExpressionInterpreter.interpret(CFMLExpressionInterpreter.java:201):201
+	at railo.runtime.functions.dynamicEvaluation.Evaluate._call(Evaluate.java:91):91
+	at railo.runtime.functions.dynamicEvaluation.Evaluate.call(Evaluate.java:84):84
+	at railo.runtime.functions.dynamicEvaluation.Evaluate.call(Evaluate.java:25):25
+	at admin.extension_functions_cfm460$cf.threadCall(/railo-context-compiled/admin/extension.functions.cfm:127):127
+	at railo.runtime.thread.ChildThreadImpl.execute(ChildThreadImpl.java:181):181
+	at railo.runtime.thread.ChildThreadImpl.run(ChildThreadImpl.java:130):130
+"

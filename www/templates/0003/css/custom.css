@@ -1,0 +1,166 @@
+.form-text{
+	height:38px;
+	padding:10px;
+	font-size: 13px;
+	color:#333;
+	vertical-align: middle;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border:1px solid #ccc;
+	border-radius:3px;
+	display:block;
+	width:320px;
+}
+.buttonStyle{
+    background-color: black;
+    color: #f5deb3;
+    border-radius: 0px;
+    border: solid 1px;
+    height: 42px;
+}
+input.hasDatepicker {
+    display: inline-block;
+    margin-right: 5px;
+}
+#ui-datepicker-div { 
+	display: none; 
+}
+.form-cntrl select{
+	width:320px;
+}
+.form-cntrl-date select {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.font-size{
+	font-size: 15.55px;
+}
+.bold{
+	 font-weight: bold;
+}
+.leftPadding {
+	padding-left: 38px;
+}
+.topPadding{
+    padding-top: 69px;
+}
+.blogTitle{
+    padding-top: 20px;
+}
+.leftAlign{
+	text-align: left;
+}
+.linkStyle{
+    color: #90734d;
+    text-decoration: none;
+    font-weight: 600;
+}
+#readmore:hover{
+    color: #794500;
+    font-weight: 600;
+}
+.welcome-section.operations-section .timing-table-content .timing-table td:nth-child(odd), 
+.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table td:nth-child(odd){
+	width: 125px;
+}
+.welcome-section.operations-section .timing-table-content .timing-table td, 
+.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table td{
+	font-size: 16px;
+}
+.welcome-section.operations-section .timing-table-content .timing-table td:nth-child(even), 
+.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table td:nth-child(even){
+	font-size: 13px;
+	text-transform: lowercase;
+}
+
+.contact-body-content .payment-section {
+    border-bottom: 2px solid #dac6a5;
+    padding: 22px 0px 22px;
+    background: #e8e2d7;
+}
+.payment-section .payment-container .payment-inner-child
+{
+	padding:0px;
+}
+
+@media (max-width: 1199px){
+	.welcome-section.operations-section .timing-table-content .timing-table td:nth-child(odd){
+	     width: 100px; 
+	}
+	.welcome-section.operations-section .timing-table-content .timing-table td:nth-child(even), 
+	.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table td:nth-child(even) {
+		font-size: 13px;
+	}
+}
+@media (max-width: 992px){
+	.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table{
+		width: 450px;
+	}
+}
+@media (max-width: 991px){
+	.payment-section .payment-container .payment-method-right
+	{
+		padding-top:0px !important;
+	}
+}
+@media (max-width: 767px){
+	.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table td:nth-child(odd){
+		font-size: 14px;
+	}
+	.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table{
+		width: 350px;
+		max-width: 100%;
+		margin: 10px auto;
+	}
+	.welcome-section.operations-section .timing-table-content .timing-table{
+		width: 350px;
+		max-width: 100%;
+		margin: 10px auto;
+		float: none;
+	}
+	.welcome-section.operations-section{
+		padding-bottom: 30px;
+	}
+	.service-section{
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+}
+@media (max-width: 450px){
+	.welcome-section.operations-section .timing-table-content .timing-table, 
+	.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table{
+		width: auto;
+	}	
+	.welcome-section.operations-section .timing-table-content .timing-table tr td{
+		padding: 15px 5px;
+		font-size: 14px;
+	}
+	.welcome-section.operations-section .timing-table-content .timing-table td:nth-child(even), 
+	.contact-body-content .contact-mail-section .contact-section .timing-table-content .timing-table td:nth-child(even){
+		font-size: 12px;
+	}
+	.service-section .service-container .title-row h2{
+		font-size: 25px;
+	}
+	.form-cntrl-date select {
+	width: 85px;
+	margin-right: 8px;
+	}
+	.form-text{
+	 max-width: 100%;
+	}
+	.form-cntrl select{
+	max-width:100%;
+}
+}
+.contact-section .contact-inner-row .map-inner-contact{
+	padding: 110px 40px;
+	max-width: 350px;
+}
+@media (max-width: 1679px){
+	.contact-section .contact-inner-row .map-inner-contact {
+	    left: 60% !important;
+	}
+}

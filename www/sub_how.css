@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		background:url(index_files/bg.jpg) no-repeat fixed center top;
+}
+
+
+.details{
+	margin-top:15px;
+	padding-bottom:20px;
+	overflow:auto;
+
+}
+
+ .details .welcome{
+	float:left;
+	width:650px;
+	padding-right:40px;
+}
+
+ .details .welcome .txt{
+	color:#7f7e7e;
+	font-size:18px;
+	text-align:justify;
+	padding-left:5px;
+	vertical-align:top;
+	padding-top:15px;
+}
+
+ .details .features{
+		float:right;
+		width:250px;
+		background-image:url(index_files/how_chart.jpg);
+		background-position:right top;
+		height:560px;
+		background-repeat:no-repeat;
+		color:#ffffff;
+		font-size:15px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		text-align:center;
+}
+
+ .details .features div{
+	 text-align:center;
+	 height:110px;
+	 padding-top:20px;
+	 padding-left:20px;
+	 padding-right:20px;
+ }
+
+
